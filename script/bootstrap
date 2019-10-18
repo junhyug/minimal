@@ -2,5 +2,6 @@
 
 set -e
 
-gem install bundler
+gem install bundler:2.0.2
 bundle install
+bundle update --bundler
